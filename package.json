@@ -1,0 +1,24 @@
+{
+  "name": "actualcombat-book2",
+  "version": "1.0.0",
+  "description": "```javascript\r const canadianDollar = 0.91;\r function roundTwo(amount) {\r  return Math.round(amount * 100) / 100;\r }\r // 挂载到exports上\r exports.canadianToUS = canadian => roundTwo(canadian * canadianDollar);\r exports.USToCanadian = us => roundTwo(us / canadianDollar); \r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AprildreamMI/node-actualCombat-book2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AprildreamMI/node-actualCombat-book2/issues"
+  },
+  "homepage": "https://github.com/AprildreamMI/node-actualCombat-book2#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "htmlparser": "^1.7.7",
+    "request": "^2.60.0"
+  }
+}
