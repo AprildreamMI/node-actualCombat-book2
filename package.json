@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/AprildreamMI/node-actualCombat-book2#readme",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "htmlparser": "^1.7.7",
     "request": "^2.60.0"
   }
